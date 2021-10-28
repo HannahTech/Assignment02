@@ -1,0 +1,60 @@
+<% include ../partials/header.ejs %>
+
+<% include ../partials/nav.ejs %>
+
+<h3 style="color: gold; padding-top:80px;padding-bottom: 80px;">Welcome to <%= title %> Page</h3>
+  
+<!-- Main Content -->
+  <main class="container">
+    <div class="row">
+        <div class="offset-md-2 col-md-10">
+            <h3><%= title %></h3>
+            <br>
+            <table class="table">
+                <!-- Header Row-->
+                <tr class="d-flex">
+                    <% if(typeof displayName == 'string' && displayName) { %>
+                        <th class="text-center col-2">Name</th>
+                        <th class="text-center col-2">Number</th>
+                        <th class="text-center col-3">Email</th>
+                        <th> 
+                            <a href= "/business-contact/add" class="btn btn-warning" role="button"> Add </a>
+                        </th>
+                        <th class="text-center col-0.5" > </th>
+                        <th class="text-center col-0.5" ></th>
+                    <% } else { %>
+                         <th class="text-center col-2">Name</th>
+                        <th class="text-center col-2">Number</th>
+                        <th class="text-center col-3">Email</th>
+                    <% } %>
+                </tr>
+
+                <!-- Repeatable Template Row -->
+
+                <% for(let count = 0; count < ContactsList.length; count++) { %>
+                    <tr class="d-flex">
+                        <% if(typeof displayName == 'string' && displayName) { %>
+                            <td class="text-center col-2"><%= ContactsList[count].Name %></td>
+                            <td class="text-center col-2"><%= ContactsList[count].Number %></td>
+                            <td class="text-center col-3"><%= ContactsList[count].Email %></td>
+                            <td class="text-center col-0.5">
+                                <a href="/business-contact/edit/<%= ContactsList[count]._id %>" 
+                                    class="btn btn-outline-success btn-sm">Edit</a>
+                            </td>
+                            <td class="text-center col-0.5">
+                                <a href="/business-contact/delete/<%= ContactsList[count]._id %>" 
+                                    class="btn btn-outline-danger btn-sm">Delete </a>
+                            </td>
+                        <% } else { %>
+                            <td class="text-center col-2"><%= ContactsList[count].Name %></td>
+                            <td class="text-center col-2"><%= ContactsList[count].Number %></td>
+                            <td class="text-center col-3"><%= ContactsList[count].Email %></td>
+                        <% } %>
+                    </tr>
+                <% } %>
+            </table>
+        </div>
+    </div>
+  </main>
+  
+<% include ../partials/footer.ejs %>

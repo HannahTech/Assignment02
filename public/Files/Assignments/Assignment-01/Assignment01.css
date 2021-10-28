@@ -1,0 +1,54 @@
+﻿h1 {
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+h2 {
+	color: #FF0000;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	background-image: url('images/gettyimages-1189523783.jpg');
+	background-size: 100% 140%;
+	padding: 55px;
+	background-repeat: no-repeat;
+}
+.fieldLable {
+	text-align: right;
+}
+#copyright {
+	font-size: medium;
+	color: #FFFFFF;
+}
+#allPage {
+	width: 600px;
+	margin-left: 650px;
+	padding: 25px;
+	margin-top: 100px;
+}
+label {
+	width: 250px;
+	float: left;
+	text-align: right;
+}
+fieldset {
+	border-color: #F20000;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #FF0000;
+}
+#button {
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 7px;
+	padding: 8px;
+	width: 130px;
+	background-color: #FF0000;
+}
+#signature {
+	float: right;
+}
+
+#display_BMR{
+	color: #FF0000;
+	font-weight: bolder;
+}

@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+
+<!--
+      Assignment 02 - Table Generation
+
+      Author: Hengameh Khajehpour 301122261
+
+      Date:  February 2021
+
+   -->
+
+<html lang="en">
+
+<head>
+<link rel="icon" href="images/logo.png" type="image/png" sizes="20x20">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title> Generate A Table </title>
+<meta content="Html forms" name="description">
+<link href="Assignment02.css" rel="stylesheet" type="text/css">
+<script src="modernizr.custom.05819.js"></script>
+</head>
+
+<body>
+<div id="allPage">
+<header>
+	<h1> Generate A Table </h1>
+</header>
+
+<form id="page"> 
+<fieldset>
+<legend>Generate A Table </legend>
+	<table style="width: 100%">
+		<tr>
+			<td class="fieldLable" style="height: 34px"><label>Row Numbers : &nbsp;</label></td>
+			<td style="height: 34px">
+			<input id="row" name="row" tabindex="7" type="number"></td>
+		</tr>
+		<tr>
+			<td class="fieldLable"><label>Column Numbers : &nbsp;</label></td>
+			<td>
+			<input id="column" name="column" tabindex="9" type="number"></td>
+		</tr>
+		<tr>
+			<td class="fieldLable">&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="fieldLable"><label>
+			<button id="btnR" name="btnReset" tabindex="41" type="button" class="button" onclick="myFunction()">Reset</button>
+			</label></td>
+			<td>
+			<button id="btnS" name="btnSubmit" tabindex="39" type="button" class="button">Show Table</button>
+			</td>
+		</tr>	
+	</table>
+
+	</fieldset>
+<p></p>
+	<div id="table-div">
+	
+	</div>
+
+	<p>
+		.
+	</p>
+	
+	<fieldset>
+<legend>Ready Tables </legend>
+	<table style="width: 100%">
+		<tr>
+			<td class="fieldLable"><label>
+			<input id="button10" name="btnTable" tabindex="41" type="button" value="Table 10×10" class="button" onclick="generate_table(10)">
+
+
+			</label></td>
+			<td>
+			<input id="button15" name="btnTable" tabindex="39" type="button" value="Table 15×15" class="button" onclick="generate_table(15)">
+			</td>
+		</tr>
+		
+	</table>
+	</fieldset>
+<p>.</p>
+</form>
+
+<footer>
+	<p id="copyright">&copy;&nbsp;Copyright Hengameh Khajehpour - COMP 125 - Assignment 02 </p>
+</footer>
+</div>
+<script src="Assignment02.js"></script>
+</body>
+</html>

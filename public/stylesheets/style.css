@@ -1,0 +1,130 @@
+  
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Dosis:300,400,700);
+
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background-size: 100% 100%;
+	z-index: auto;
+	background-image: url('/Files/images/section-bg-7.jpg');
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	right: auto;
+	left: auto;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#allpage{
+	padding: 125px;
+	margin: auto;
+	background-color: #f4f4f4;
+	width: 900px;
+	position: relative;
+	color: #111;
+	font-size: 14px;
+	font-family: "Open Sans", arial, sans-serif;
+	line-height: 1.6;
+	vertical-align: middle;
+	text-align: center;
+	height: 350px;
+	margin-top:120px;
+}
+
+table{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+td{
+	padding: 25px;
+}
+
+h1 {
+	font-family: Dosis, arial, sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 0;
+	position: relative;
+	font-weight: 400;
+	letter-spacing: 0.3em;
+	line-height: 1.2;
+	margin-bottom: 30px;
+	color: inherit;
+	margin: 0.67em 0;	
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+h2 {
+	margin: 75;
+	font-size: 24px;
+	letter-spacing: 0.3em;
+	position: relative;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 1.4;
+	text-transform: uppercase;
+	letter-spacing: 0.7em;
+	font-family: Dosis, arial, sans-serif;
+	color: inherit;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+h3 {
+	margin: 75;
+	font-size: 24px;
+	letter-spacing: 0.3em;
+	position: relative;
+	font-weight: 500;
+	line-height: 1.4;
+	text-transform: uppercase;
+	letter-spacing: 0.7em;
+	font-family: Dosis, arial, sans-serif;
+	color: inherit;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+.link{
+	border-radius: 5px;
+	height: auto;
+	width: 150px;
+	padding: 8px 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	box-sizing: border-box;
+	color: #fff;
+	background: rgba(34,34,34, .9);
+	border: 2px solid transparent;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	box-shadow: none;
+	transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+.link:hover {
+	box-shadow: 2px 2px 2px #999999;
+	border: thin solid #666666;
+	background-color: #f4f4f4;
+	color:goldenrod;
+}
+
+img {
+  page-break-inside:avoid;
+  max-width:100%;
+  vertical-align:middle;
+ }
+ 
+#copyright {
+	font-size: small;
+	color: #666666;
+}

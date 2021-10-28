@@ -1,0 +1,68 @@
+﻿body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #26301B;
+	background-image: url('images/Light-Grey-Background-Pattern-Light-grey-background-pattern.jpg');
+	background-size: 100% 100%;
+	padding: 55px;
+}
+h1 {
+	background-position: 55px;
+	padding: 55px 55px 55px 30%;
+	text-transform: uppercase;
+	background-image: url('images/logo.gif');
+	color: #4D8F00;
+	border-radius: 35px;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+}
+.fieldLable {
+	text-align: right;
+}
+#copyright {
+	font-size: small;
+	color: #000000;
+	background-color: #92a77a;
+	text-align: center;
+	border-radius: 4px;
+	padding: 5px;
+}
+#allPage {
+	width: 680px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #808080;
+	padding: 35px 75px 35px 75px;
+	border: thick groove #284415;
+	background-color: #CCD650;
+	background-image: url('images/Back.png');
+	margin-top: 55px;
+}
+label {
+	float: right;
+	text-align: right;
+}
+fieldset {
+	border-radius: 10px;
+	box-shadow: 8px 8px 8px #808080;
+}
+legend {
+	font-size: medium;
+	color: #366200;
+	font-weight: bold;
+}
+.button {
+	border-radius: 7px;
+	padding: 10px;
+	width: 150px;
+	
+}
+.button:hover {
+	background-color: #366200;	
+	color:white;
+}
+tr{
+	font-size: small;
+}
+

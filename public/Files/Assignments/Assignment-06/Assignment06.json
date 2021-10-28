@@ -1,0 +1,33 @@
+{
+    "width":"650px",
+    "height":"400px",
+    "time":2000,
+    "ImageList":
+[
+    {
+        "name": "images/IMG_01.jpg",
+        "number": "Image 1 of 6"
+    },
+    {
+        "name": "images/IMG_02.jpg",
+        "number": "Image 2 of 6"
+    },
+    {
+        "name": "images/IMG_03.jpg",
+        "number": "Image 3 of 6"
+    },
+    {
+        "name":"images/IMG_04.jpg",
+        "number": "Image 4 of 6"
+    },
+    {
+        "name":"images/IMG_05.jpg",
+        "number": "Image 5 of 6"
+    },
+    {
+        "name": "images/IMG_06.jpg",
+        "number": "Image 6 of 6"
+    }
+]
+
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <link rel="icon" href="images/logo2.png" type="image/png" sizes="20x20">
+   <title>Photo gallery</title>
+   <link rel="stylesheet" href="Assignment06.css" />
+   <script src="modernizr.custom.05819.js"></script>
+</head>
+
+<body>
+   <div>
+      <header>
+         <h1>Spectacular Nature</h1>
+      </header>
+
+      <article>
+        
+            <img width="650" height="400" id="image"/>      
+            <h4 id="fileName"></h4>
+         <div id="buttons">
+            <button id="preBtn" onclick="showSlides(false)">Previous</button>
+            <button id="updateBtn"onclick="updateBtn()">Reload</button>
+            <button id="nexBtn" onclick="showSlides(true)">Next</button>
+         </div>
+
+      </article>     
+   </div>
+   <footer>
+      <p id="copyright">&copy;&nbsp;Copyright Hengameh Khajehpour - COMP 125 - Assignment 06 </p>
+   </footer>
+   <script src="Assignment06.js"></script>
+</body>
+</html>

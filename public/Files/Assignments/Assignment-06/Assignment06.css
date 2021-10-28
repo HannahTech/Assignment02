@@ -1,0 +1,49 @@
+body{
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("images/background2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1{
+margin-top: 60px;
+margin-bottom: 50px;
+color: white;
+text-shadow: 2px 2px 4px #000000;
+font-weight: bolder;
+}
+
+#fileName{
+  font-weight: bold;
+  color: white;
+}
+
+button{
+  background-color: #f7fafd;
+  color: #1b222c;
+  font-size: medium;
+  font-weight: bold;
+  border: #1b222c , 5px;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+  margin: 35px;
+}
+
+img{
+padding: 15px;
+background-color: white ;
+}
+
+#copyright {
+margin-top: 20px;
+font-size: small;
+color:white;
+text-align: center;
+padding: 5px;
+}
