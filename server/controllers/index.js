@@ -65,18 +65,6 @@ module.exports.processLoginPage = (req, res, next) => {
                 return next(err);
             }
 
-            const payload = 
-            {
-                id: user._id,
-                displayName: user.displayName,
-                username: user.username,
-                email: user.email
-            }
-
-            const authToken = jwt.sign(payload, DB.Secret, {
-                expiresIn: 604800 
-            });
-
             return res.redirect('/business-contact');
         });
     })(req, res, next);
